@@ -2,9 +2,9 @@
 div {
   color: rgb(200,200,200);
 }
+
 body{
   background-color: rgb(77, 77, 77);
-
 }
 
 footer {
@@ -28,15 +28,18 @@ footer {
   height: 60px;
   margin-bottom: 80px;
 }
+
 .Profile, .About, .Name{
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Alfa Slab One", Arial;
 }
+
 .Profile {
   margin-top: 100px;
 }
+
 .Profile-Picture {
   object-fit: cover;
   object-position: center;
@@ -44,16 +47,19 @@ footer {
   border-radius: 80px;
   box-shadow: 0 0 50px white;
 }
+
 .Name {
   margin-top: 25px;
   font-size: 30px;
 }
+
 .About {
   margin-top: 15px;
   font-family: Arial;
   font-weight: bolder;
   font-size: 25px;
 }
+
 .Projects-Container {
   display: flex;
   height: 40px;
@@ -64,31 +70,38 @@ footer {
   box-shadow: 0 0 5px rgba(255,255,255,0.4);
   border-radius: 10px;
 }
+
 .Progress {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .Social-Media {
   box-shadow: 0 0 5px rgba(255,255,255,0.4);
   border-radius: 10px;
   text-align: center;
   padding: 15px 20px;
 }
+
 .Hyper-Links {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
+
 .LinkedIn {
   background-color: #0077B5;
 }
+
 .Instagram {
   background: linear-gradient(to right, #833AB4, #FD1D1D, #F56040);
 }
+
 .GitHub {
   background-color: #181717;
 }
+
 .LinkedIn, .Instagram, .GitHub{
   text-decoration: none;
   color: white;
@@ -99,24 +112,29 @@ footer {
   border-radius: 5px;
   transition: background-color 0.5s;
 }
+
 .LinkedIn:hover {
   color: white;
   background-color: rgb(10,102,194);
 }
+
 .Instagram:hover {
   color: white;
   background: linear-gradient(to left, #833AB4, #FD1D1D, #F56040);
 }
+
 .GitHub:hover {
   color: white;
   background-color: rgb(55, 55, 55);
 }
+
 .Contact {
   margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .Contact-Me {
   color: white;
   font-family: Arial;
@@ -128,6 +146,7 @@ footer {
   transition: background-color 0.5s;
   box-shadow: 0px 2px 5px rgba(200,200,200,0.5);
 }
+
 .Contact-Me:hover {
   color: white;
   background-color: rgb(43, 169, 12);
